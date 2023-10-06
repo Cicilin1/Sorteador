@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div>
+            <img src="./assets/dados.png" alt="given-away" class="dado">
+            <h1>NumberSplash</h1>
+        </div>
+
+        <h3>Sorteador de número:</h3>
+
+        <input type="number" min="0" placeholder="entre">
+        <input type="number" min="0" placeholder="e">
+
+        <button onclick="validacao()">SORTEAR</button>
+        <p class="msg-error">Prencha os campos acima com valores válidos!</p>
+        <div class="container-result">
+            <div class="result">Resultado</div>
+        </div>
+    </main>
+
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

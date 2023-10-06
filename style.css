@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;600&family=Quicksand:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #7D7463;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+
+    background-image: linear-gradient(90deg, #2E4F4F, #2C3333)
+}
+
+main {
+    text-align: center;
+
+    background-color: #fff;
+    width: 70vw;
+    padding: 4rem 0;
+}
+
+.dado {
+    width: 2.5rem;
+    display: inline-block;
+}
+
+h1 {
+    padding-bottom: 2rem;
+    font-weight: 900;
+    font-size: 3rem;
+    display: inline-block;
+
+    padding-bottom: 3rem;
+}
+
+h3 {
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+
+    border: 1px solid grey;
+}
+
+button {
+    padding: 0.9rem 2rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+
+    opacity: 60%;
+
+    background-color: #272829;
+    border: none;
+    color: #fff;
+
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.msg-error {
+    padding: 0.4rem 0.2rem 0 0.2rem;
+    display: none;
+    color: red;
+}
+
+.container-result {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem 3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+    margin-top: 4rem;
+
+    background-color: #000;
+}
+
+
+@media screen and (max-width:970px) {
+
+    main {
+        text-align: center;
+        padding: 2rem 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dado {
+        width: 1.5rem;
+        display: inline;
+    }
+
+    h1 {
+        font-size: 2rem;
+        display: inline;
+    }
+
+    p {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    input {
+        margin: 0.5rem 0;
+        padding: 0.8rem;
+
+        font-size: 1rem;
+        font-weight: 500;
+        width: auto;
+    }
+
+    button {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+        font-weight: 500;
+
+        margin: 2rem 0 0 0;
+    }
+
+
+
+}
+
+@media screen and (max-width:400px) {
+
+    input {
+        margin: 0.5rem 0;
+        padding: 0.3rem 0.5rem;
+
+        font-size: 1rem;
+        font-weight: 500;
+        width: 95%;
+    }
+
+    button {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+        font-weight: 500;
+
+        margin: 2rem 0 0 0;
+    }
+}
+
+@media screen and (max-width:300px) {
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .result {
+        color: #fff;
+        border-radius: 10px;
+        padding: 0.5rem 1.5rem;
+        font-size: 1.4rem;
+
+        margin-top: 3rem;
+
+
+    }
+
+}

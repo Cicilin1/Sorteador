@@ -27,5 +27,5 @@ Para começar a usar o NumberSplash, siga estas etapas:
 
 - HTML: Para a estrutura da página.
 - CSS: Para estilização.
-- JavaScript: Para funcionalidades interativas.
+- JavaScript: Para funcionalidades interativas e parte lógica.
 
